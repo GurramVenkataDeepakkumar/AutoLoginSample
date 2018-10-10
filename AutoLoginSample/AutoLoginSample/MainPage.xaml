@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AutoLoginSample"
+             x:Class="AutoLoginSample.MainPage">
+    <StackLayout Spacing="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Entry x:Name="UserNameOrEmailEntry" Placeholder="UserName or Email" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Entry>
+        <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Entry>
+        <Button Text="Save" Clicked="OnLoginClicked" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+    </StackLayout>
+	
+</ContentPage>
